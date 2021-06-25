@@ -26,3 +26,5 @@
             group: yes
             owner: yes
             perms: yes
+         rsync_opts:
+            - "--exclude=TESTE-ANSIBLE-JEKINS/.git"
